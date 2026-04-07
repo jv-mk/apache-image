@@ -78,7 +78,7 @@ Vorraussetzung:  **GitHub Personal Access Token (PAT)** mit:
 ## Image prüfen
 
 ```bash
-docker buildx imagetools inspect ghcr.io/<user>/<repo>:latest
+docker buildx imagetools inspect ghcr.io/jv-mk/apache-image:latest
 ```
 
 Erwartetes Ergebnis:
