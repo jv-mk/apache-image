@@ -2,8 +2,8 @@
 
 Dieses Projekt stellt ein Docker-Setup für **PHP + Apache** bereit, das auf **x86 Servern (z. B. mittwald)** läuft.
 
-veraltet: https://github.com/jv-mk/php8.3-apache
-neu: https://github.com/jv-mk/apache-image
+veraltet: <https://github.com/jv-mk/php8.3-apache>
+neu: <https://github.com/jv-mk/apache-image>
 
 ---
 
@@ -59,18 +59,20 @@ Vorraussetzung:  **GitHub Personal Access Token (PAT)** mit:
 * Erstellt (falls nötig) einen `buildx` Builder
 * Baut ein Multi-Arch Image:
 
-    * `linux/amd64`
-    * `linux/arm64`
+  * `linux/amd64`
+  * `linux/arm64`
 * Erstellt Version-Tag:
 
   ```
   20260218-1548-abc123
   ```
+
 * Pusht zu:
 
   ```
   ghcr.io/<user>/<repo>
   ```
+
 * Setzt optional `latest`
 
 ---
@@ -156,4 +158,5 @@ docker login ghcr.io
 ```
 
 Mit gültigem Token.
+
 # apache-image
